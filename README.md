@@ -44,7 +44,7 @@ The final model output is the average of outputs from all dropout-regularization
 ### 6. 📐 **Formulaic Relationship**
 A formula that relates dropout rate, dense units, and batch size to compute regularization rates:
 
-\[ \text{Regularization Rate} = \frac{\text{Dropout Rate}}{\text{Dense Units}} \times \text{Batch Size} \]
+$`\[ \text{Regularization Rate} = \frac{\text{Dropout Rate}}{\text{Dense Units}} \times \text{Batch Size} \]`$
 
 ## 🖥 Implementation (TensorFlow)
 
