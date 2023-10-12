@@ -22,7 +22,7 @@ If you use the content or concepts from this repository in your research or proj
   doi={10.1109/IRI54793.2022.00063}
 }
 
-
+```
 
 ## 🛠 Key Components
 
@@ -69,3 +69,4 @@ def MSDR(input_shape, dense_units=32, batch_size=32):
     x = tf.keras.layers.Average()(dense)
     outputs.append(x)
     return tf.keras.Model(inputs=x, outputs=outputs)
+```
